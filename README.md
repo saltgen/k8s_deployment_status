@@ -62,7 +62,7 @@ The output data should look like so,
 {
     "branch": "main",
     "commit_merged": "Thu, 15 Jun 2023 14:38:16 UTC",
-    "commit_msg": "Add redis as required dependency for Puptoo",
+    "commit_msg": "Add redis as required dependency",
     "commit_sha": "9c2ee47951a8d25c7aa1402998344c5470956eb7",
     "deployed_at": "Thu, 15 Jun 2023 18:59:25 UTC"
 }
