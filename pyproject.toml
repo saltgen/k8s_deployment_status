@@ -1,0 +1,12 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[options]
+install_requires = [
+    "kubernetes>=26.1.0",
+    "requests>=2.31.0"
+]
