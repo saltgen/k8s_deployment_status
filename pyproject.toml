@@ -1,6 +1,6 @@
 [project]
 name = "k8s_deployment_status"
-version = "0.0.3"
+version = "0.0.6"
 authors = [{ name = "saltgen", email = "sdnirvana94@gmail.com" }]
 description = "Provides deployment status details for any Kubernetes pod"
 readme = "README.md"

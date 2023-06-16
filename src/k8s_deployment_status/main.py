@@ -9,7 +9,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 from kubernetes import config, client
 
-from config import (
+from .config import (
     COMMITS_API_URL,
     GITHUB_API_MAXIMUM_RETRIES,
     GITHUB_DEPLOYMENT_BRANCH,
