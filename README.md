@@ -9,7 +9,7 @@ Most of the data is memoized as well to avoid unnecessary API calls.
 ## Installation
 
 ```shell
-pip install k8s_deployment_status
+pip install k8s-deployment-status
 ```
 ### Package dependencies(auto-install):
 
