@@ -1,6 +1,6 @@
 [project]
 name = "k8s_deployment_status"
-version = "0.0.2"
+version = "0.0.3"
 authors = [{ name = "saltgen", email = "sdnirvana94@gmail.com" }]
 description = "Provides deployment status details for any Kubernetes pod"
 readme = "README.md"
@@ -13,7 +13,7 @@ classifiers = [
 requires-python = ">=3.6"
 dependencies = [
     "kubernetes>=26.1.0",
-    "requests>=2.31.0"
+    "requests>=2.25.1"
 ]
 
 [project.urls]

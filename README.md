@@ -1,8 +1,8 @@
 # Kubernetes Deployment Status
 
-Retrieves deployment status information from a GitHub API endpoint. 
+Retrieves commit details from a GitHub API endpoint, deployment timestamp from Kubernetes API.
 
-It encapsulates methods to interact with the API, handle retries, and extract relevant data from the API response.
+It encapsulates methods to interact with the APIs, handle retries, and extract relevant data from the API response.
 
 Most of the data is memoized as well to avoid unnecessary API calls.
 
@@ -46,7 +46,7 @@ Feel free to check config.py for default values per variable.
 Import package and respective class in the respective module
 
 ```commandline
-from deployment_status import DeploymentStatus
+from k8s_deployment_status import DeploymentStatus
 
 @app.route('/api/ros/v1/deployment_status', methods=['GET'])
     def deployment_status():
@@ -56,7 +56,7 @@ from deployment_status import DeploymentStatus
 
 ## Response Data
 
-The output data should look like so,
+The output object should look like so,
 
 ```commandline
 {
